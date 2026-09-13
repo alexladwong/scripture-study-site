@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scripture Atlas — an interactive exploration of Bible lands, journeys, empires, places and teaching themes." />
+  <title>Scripture Atlas — Explore the World of the Bible</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Scripture Atlas home">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span>
+        <strong>Scripture Atlas</strong>
+        <small>Explore the world of the Bible</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">Menu</button>
+
+    <nav id="mainNav" class="main-nav" aria-label="Primary navigation">
+      <a href="#explore">Explore</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#journeys">Journeys</a>
+      <a href="#classroom">Classroom</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">◐</button>
+      <button class="search-btn" id="searchOpen">Search <span>⌘K</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">Bible geography • history • journeys • study</div>
+        <h1>See Scripture<br><em>in place and time.</em></h1>
+        <p>
+          Explore Bible lands through interactive journeys, timelines, places, empires and teaching tools.
+          Built for Christians, students, educators, curious readers and respectful interfaith learning.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#explore">Explore the map</a>
+          <a class="btn ghost" href="#timeline">Start with the timeline</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Scripture references</span>
+          <span>✓ Historical context</span>
+          <span>✓ Tradition clearly labeled</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Interactive stylized map of biblical regions">
+        <div class="map-shell">
+          <div class="map-toolbar">
+            <span>Interactive overview</span>
+            <div class="segmented">
+              <button class="active" data-layer="all">All</button>
+              <button data-layer="ot">OT</button>
+              <button data-layer="nt">NT</button>
+              <button data-layer="paul">Paul</button>
+            </div>
+          </div>
+          <svg id="heroMap" viewBox="0 0 780 520" role="img" aria-labelledby="mapTitle mapDesc">
+            <title id="mapTitle">Stylized Bible Lands map</title>
+            <desc id="mapDesc">Interactive map with selected biblical locations and journey routes.</desc>
+            <defs>
+              <linearGradient id="sea" x1="0" x2="1">
+                <stop offset="0%" stop-color="#10354b"/>
+                <stop offset="100%" stop-color="#0a2032"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="5" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <rect width="780" height="520" rx="28" fill="url(#sea)"/>
+            <path class="land" d="M0,85 C92,98 146,72 208,96 C275,122 337,117 397,93 C458,68 527,76 582,97 C650,124 707,111 780,86 L780,520 L0,520 Z"/>
+            <path class="land land-2" d="M520,0 C565,44 581,77 574,116 C568,156 593,192 647,223 L780,265 L780,0 Z"/>
+            <path class="river" d="M495,95 C475,150 484,203 455,245 C433,278 443,324 432,394"/>
+            <path class="route route-paul" d="M464,285 C405,247 346,231 289,244 C235,257 192,229 150,196 C111,166 86,153 53,157"/>
+            <path class="route route-ot" d="M608,199 C558,224 517,238 486,269 C458,297 441,322 428,360"/>
+            <path class="route route-ot" d="M429,360 C381,385 349,400 322,420"/>
+            <g class="map-pins">
+              <button data-kind="nt" data-id="jerusalem">
+                <circle cx="440" cy="330" r="8"/><text x="454" y="334">Jerusalem</text>
+              </button>
+              <button data-kind="nt" data-id="nazareth">
+                <circle cx="449" cy="286" r="7"/><text x="462" y="290">Nazareth</text>
+              </button>
+              <button data-kind="nt" data-id="bethlehem">
+                <circle cx="438" cy="346" r="6"/><text x="452" y="351">Bethlehem</text>
+              </button>
+              <button data-kind="ot" data-id="sinai">
+                <circle cx="395" cy="415" r="7"/><text x="408" y="420">Sinai</text>
+              </button>
+              <button data-kind="ot" data-id="babylon">
+                <circle cx="610" cy="200" r="7"/><text x="623" y="205">Babylon</text>
+              </button>
+              <button data-kind="paul" data-id="ephesus">
+                <circle cx="279" cy="239" r="7"/><text x="291" y="244">Ephesus</text>
+              </button>
+              <button data-kind="paul" data-id="corinth">
+                <circle cx="158" cy="196" r="7"/><text x="170" y="201">Corinth</text>
+              </button>
+              <button data-kind="paul" data-id="rome">
+                <circle cx="52" cy="156" r="7"/><text x="64" y="161">Rome</text>
+              </button>
+            </g>
+          </svg>
+          <div class="map-card" id="mapCard">
+            <span class="map-card-kicker">Selected place</span>
+            <h3>Jerusalem</h3>
+            <p>A central city across Old Testament, the life of Jesus, and the early Church.</p>
+            <button data-open-place="jerusalem">Explore place →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro-strip">
+      <p>
+        <strong>One world, many entry points.</strong>
+        Follow a journey, inspect a place, compare empires, teach a class, or simply explore.
+      </p>
+      <div class="audience-chips" aria-label="Designed for">
+        <span>Students</span><span>Families</span><span>Pastors</span><span>Professors</span>
+        <span>Interfaith visitors</span><span>Curious readers</span>
+      </div>
+    </section>
+
+    <section class="section" id="explore">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Explore the biblical world</span>
+          <h2>Choose how you want to enter the story.</h2>
+        </div>
+        <p>Each route connects geography, Scripture references, historical context and clearly labeled interpretation.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card large" data-filter-card="place">
+          <div class="card-icon">⌖</div>
+          <span class="tag">Interactive atlas</span>
+          <h3>Bible Lands</h3>
+          <p>Explore the Mediterranean, Canaan, Egypt, Mesopotamia, Asia Minor and the regions connecting biblical events.</p>
+          <button data-open-view="places">Open atlas →</button>
+        </article>
+
+        <article class="feature-card" data-filter-card="journey">
+          <div class="card-icon">↝</div>
+          <span class="tag">Guided journeys</span>
+          <h3>Abraham, Exodus & Paul</h3>
+          <p>Move stop-by-stop through key journeys and see where the biblical text places each event.</p>
+          <a href="#journeys">Follow journeys →</a>
+        </article>
+
+        <article class="feature-card" data-filter-card="history">
+          <div class="card-icon">◫</div>
+          <span class="tag">History</span>
+          <h3>Biblical Empires</h3>
+          <p>Compare Assyria, Babylon, Persia, Alexander's empire and Rome within the Bible's historical setting.</p>
+          <button data-open-view="empires">Compare empires →</button>
+        </article>
+
+        <article class="feature-card" data-filter-card="study">
+          <div class="card-icon">✧</div>
+          <span class="tag">Christian study</span>
+          <h3>Jesus & the New Testament</h3>
+          <p>Explore childhood locations, New Testament Israel, early churches and Paul's mission in context.</p>
+          <button data-open-view="jesus">Explore New Testament →</button>
+        </article>
+
+        <article class="feature-card" data-filter-card="study">
+          <div class="card-icon">⌂</div>
+          <span class="tag">Visual learning</span>
+          <h3>Tabernacle & Temples</h3>
+          <p>Study the Tabernacle layout and compare it with Solomon's and Herod's Temple complexes.</p>
+          <button data-open-view="temple">Open explorer →</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="timeline">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Timeline</span>
+          <h2>Travel through biblical history.</h2>
+        </div>
+        <p>Move the slider to change eras, then open the related places and journeys.</p>
+      </div>
+
+      <div class="timeline-shell">
+        <div class="timeline-progress"><div id="timelineFill"></div></div>
+        <input id="timelineRange" type="range" min="0" max="9" value="0" aria-label="Biblical era selector" />
+        <div class="timeline-labels" id="timelineLabels"></div>
+        <div class="timeline-detail" id="timelineDetail"></div>
+      </div>
+    </section>
+
+    <section class="section" id="journeys">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Interactive journeys</span>
+          <h2>Follow the route. Open the text. Understand the setting.</h2>
+        </div>
+        <p>Routes below are educational reconstructions; traditional or uncertain locations are labeled accordingly.</p>
+      </div>
+
+      <div class="journey-layout">
+        <aside class="journey-list" id="journeyList"></aside>
+        <div class="journey-stage">
+          <div class="journey-top">
+            <div>
+              <span class="tag" id="journeyTag">Journey</span>
+              <h3 id="journeyTitle"></h3>
+              <p id="journeySummary"></p>
+            </div>
+            <div class="journey-counter"><span id="journeyStep">1</span>/<span id="journeyTotal">1</span></div>
+          </div>
+
+          <div class="journey-map">
+            <div class="journey-line" id="journeyLine"></div>
+            <div class="journey-stops" id="journeyStops"></div>
+          </div>
+
+          <div class="journey-reader">
+            <div>
+              <span class="eyebrow">Current stop</span>
+              <h4 id="stopTitle"></h4>
+              <p id="stopText"></p>
+            </div>
+            <div class="reference-box">
+              <span>Scripture</span>
+              <strong id="stopRef"></strong>
+              <small id="stopNote"></small>
+            </div>
+          </div>
+
+          <div class="journey-controls">
+            <button class="btn ghost" id="prevStop">← Previous</button>
+            <button class="btn primary" id="nextStop">Next stop →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section classroom-section" id="classroom">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Classroom mode</span>
+          <h2>Teach, discuss, compare, ask better questions.</h2>
+        </div>
+        <p>Designed so Christian classrooms and broader academic settings can use the same material with clear labeling.</p>
+      </div>
+
+      <div class="classroom-grid">
+        <article>
+          <span class="tag">Discussion</span>
+          <h3>What makes a location certain, traditional, or disputed?</h3>
+          <p>Use the atlas to compare biblical references with later tradition and historical geography.</p>
+          <button class="text-btn" data-toast="Discussion prompt copied">Copy discussion prompt</button>
+        </article>
+        <article>
+          <span class="tag">Map activity</span>
+          <h3>Trace Paul's movement through the Mediterranean world.</h3>
+          <p>Identify cities tied to Acts and the New Testament letters, then compare distance and direction.</p>
+          <button class="text-btn" data-open-journey="paul2">Start activity</button>
+        </article>
+        <article>
+          <span class="tag">Quick quiz</span>
+          <h3>Which city is associated with the Babylonian exile?</h3>
+          <div class="quiz-row">
+            <button data-answer="wrong">Athens</button>
+            <button data-answer="correct">Babylon</button>
+            <button data-answer="wrong">Rome</button>
+          </div>
+          <p class="quiz-result" id="quizResult" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section perspectives">
+      <div class="perspective-copy">
+        <span class="eyebrow">Respectful by design</span>
+        <h2>Christian in identity.<br>Open in invitation.</h2>
+        <p>
+          Scripture Atlas presents the Bible as Christian Scripture while distinguishing biblical text,
+          historical context, tradition and interpretation. Visitors do not need to share the site's faith commitments to learn from it.
+        </p>
+      </div>
+
+      <div class="principles">
+        <div><strong>Biblical text</strong><span>References are shown directly and never disguised as commentary.</span></div>
+        <div><strong>Historical context</strong><span>Empires, lands and routes are explained without pretending every detail is certain.</span></div>
+        <div><strong>Christian interpretation</strong><span>Faith reflections are clearly presented as Christian theological reading.</span></div>
+        <div><strong>Interfaith respect</strong><span>No mocking, caricaturing or attacking other faiths.</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="about-shell">
+        <div>
+          <span class="eyebrow">About the source</span>
+          <h2>Reimagined from a classroom Bible atlas.</h2>
+        </div>
+        <p>
+          This prototype uses the structure and topics of the supplied <strong>Bible Class Atlas</strong> as its starting point:
+          Bible lands, Old Testament journeys, empires, New Testament geography, Paul's journeys, temples and teaching tools.
+          The interface, writing, diagrams and interactions in this website are newly created.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand">
+      <span class="brand-mark">✦</span>
+      <span><strong>Scripture Atlas</strong><small>Explore with curiosity. Study with care.</small></span>
+    </div>
+    <p>Educational prototype • Original interface and summaries • Source topics adapted from the supplied Bible Class Atlas</p>
+  </footer>
+
+  <div class="modal" id="detailModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <span class="eyebrow" id="modalKicker">Explore</span>
+      <h2 id="modalTitle">Title</h2>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true">
+    <div class="search-panel">
+      <div class="search-input-wrap">
+        <span>⌕</span>
+        <input id="searchInput" placeholder="Search places, journeys, empires, themes…" autocomplete="off" />
+        <button id="searchClose">Esc</button>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
