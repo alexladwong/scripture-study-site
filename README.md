@@ -29,3 +29,14 @@ The supplied Bible Class Atlas is copyrighted teaching material. Selected source
 - Add a licensed Bible translation/API for full passage reading.
 - Add bibliography / academic sources for historical claims.
 - Add multi-language support and printable teacher resources.
+
+
+## Strong learning / Scripture-source edition
+- Rebuilt quiz engine with sourced answers, mixed mode, missed-question retry, points, streaks and replay.
+- Bible typing now uses labeled KJV verse excerpts and records WPM/accuracy.
+- Memory game has 8 pairs and reveals Bible references.
+- Journey ordering has Scripture hints and Undo.
+- Added Verse Builder game.
+- Added Scripture source panels to Jesus, Paul, Empires, Temples and Seven Churches.
+- Atlas inspector and journey reader now display Bible proof excerpts where available.
+- Geographic uncertainty remains distinct from Bible citation.

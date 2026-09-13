@@ -1,0 +1,443 @@
+{
+  "places": [
+    [
+      "Which city did David capture and make his stronghold?",
+      "Jerusalem",
+      [
+        "Jerusalem",
+        "Corinth",
+        "Babylon",
+        "Rome"
+      ],
+      "2 Samuel 5:7",
+      "David took the strong hold of Zion: the same is the city of David.",
+      "Jerusalem becomes the City of David in the biblical narrative."
+    ],
+    [
+      "Where does Micah identify the coming ruler as coming from?",
+      "Bethlehem",
+      [
+        "Bethlehem",
+        "Nazareth",
+        "Capernaum",
+        "Ephesus"
+      ],
+      "Micah 5:2",
+      "But thou, Bethlehem Ephratah... out of thee shall he come forth unto me that is to be ruler in Israel.",
+      "Micah names Bethlehem Ephratah."
+    ],
+    [
+      "Which town is named as Jesus' dwelling place after the return from Egypt?",
+      "Nazareth",
+      [
+        "Nazareth",
+        "Jericho",
+        "Malta",
+        "Athens"
+      ],
+      "Matthew 2:23",
+      "He came and dwelt in a city called Nazareth.",
+      "Matthew explicitly names Nazareth."
+    ],
+    [
+      "Which city did Jesus pass through before meeting Zacchaeus?",
+      "Jericho",
+      [
+        "Jericho",
+        "Bethlehem",
+        "Ephesus",
+        "Philippi"
+      ],
+      "Luke 19:1",
+      "Jesus entered and passed through Jericho.",
+      "Luke locates this episode in Jericho."
+    ],
+    [
+      "Where was Paul waiting when he addressed the Athenians?",
+      "Athens",
+      [
+        "Athens",
+        "Corinth",
+        "Ephesus",
+        "Thessalonica"
+      ],
+      "Acts 17:16",
+      "While Paul waited for them at Athens, his spirit was stirred in him.",
+      "Acts places Paul in Athens."
+    ],
+    [
+      "Which city is named as a major stop after Athens?",
+      "Corinth",
+      [
+        "Corinth",
+        "Philippi",
+        "Rome",
+        "Nazareth"
+      ],
+      "Acts 18:1",
+      "After these things Paul departed from Athens, and came to Corinth.",
+      "Acts records Paul moving from Athens to Corinth."
+    ]
+  ],
+  "journeys": [
+    [
+      "Which place is part of Abram's route before Canaan?",
+      "Haran",
+      [
+        "Haran",
+        "Rome",
+        "Malta",
+        "Athens"
+      ],
+      "Genesis 11:31",
+      "Abram went forth... from Ur of the Chaldees, to go into the land of Canaan.",
+      "Genesis connects Ur, Haran and the intended journey toward Canaan."
+    ],
+    [
+      "Why did Abram go down into Egypt?",
+      "A famine",
+      [
+        "A famine",
+        "A Roman decree",
+        "A shipwreck",
+        "A census"
+      ],
+      "Genesis 12:10",
+      "There was a famine in the land: and Abram went down into Egypt.",
+      "Genesis gives famine as the immediate reason."
+    ],
+    [
+      "Which region is associated with Israel receiving manna?",
+      "Wilderness",
+      [
+        "Wilderness",
+        "Rome",
+        "Achaia",
+        "Babylon"
+      ],
+      "Exodus 16:4",
+      "Behold, I will rain bread from heaven for you.",
+      "Exodus records bread from heaven during the wilderness journey."
+    ],
+    [
+      "Which island is named after Paul's shipwreck?",
+      "Malta",
+      [
+        "Malta",
+        "Cyprus",
+        "Crete",
+        "Patmos"
+      ],
+      "Acts 28:1",
+      "When they were escaped, then they knew that the island was called Melita.",
+      "KJV uses Melita, commonly identified with Malta."
+    ],
+    [
+      "Which city follows Athens in Acts 18?",
+      "Corinth",
+      [
+        "Corinth",
+        "Jerusalem",
+        "Philippi",
+        "Antioch"
+      ],
+      "Acts 18:1",
+      "After these things Paul departed from Athens, and came to Corinth.",
+      "Paul departs Athens and comes to Corinth."
+    ]
+  ],
+  "empires": [
+    [
+      "Which empire carried Israel away after the fall of Samaria?",
+      "Assyria",
+      [
+        "Assyria",
+        "Rome",
+        "Persia",
+        "Greece"
+      ],
+      "2 Kings 17:6",
+      "The king of Assyria took Samaria, and carried Israel away into Assyria.",
+      "2 Kings names Assyria as the deporting power."
+    ],
+    [
+      "Where was Jehoiachin carried away?",
+      "Babylon",
+      [
+        "Babylon",
+        "Athens",
+        "Rome",
+        "Ephesus"
+      ],
+      "2 Kings 24:15",
+      "He carried away Jehoiachin to Babylon.",
+      "The biblical text explicitly names Babylon."
+    ],
+    [
+      "Which ruler issues a decree connected with rebuilding in Jerusalem?",
+      "Cyrus of Persia",
+      [
+        "Cyrus of Persia",
+        "Caesar Augustus",
+        "Nebuchadnezzar",
+        "Sennacherib"
+      ],
+      "Ezra 1:2",
+      "The LORD God of heaven... hath charged me to build him an house at Jerusalem.",
+      "Ezra opens with Cyrus' decree."
+    ],
+    [
+      "Which Roman ruler is named in Luke 2?",
+      "Caesar Augustus",
+      [
+        "Caesar Augustus",
+        "Cyrus",
+        "Darius",
+        "Nebuchadnezzar"
+      ],
+      "Luke 2:1",
+      "There went out a decree from Caesar Augustus, that all the world should be taxed.",
+      "Luke names Caesar Augustus in the birth narrative setting."
+    ],
+    [
+      "Which king of Babylon is named at the start of Daniel?",
+      "Nebuchadnezzar",
+      [
+        "Nebuchadnezzar",
+        "Cyrus",
+        "Herod",
+        "Augustus"
+      ],
+      "Daniel 1:1",
+      "Nebuchadnezzar king of Babylon came unto Jerusalem, and besieged it.",
+      "Daniel 1 names Nebuchadnezzar king of Babylon."
+    ]
+  ],
+  "paul": [
+    [
+      "Which city is described as a chief city of Macedonia in Acts 16?",
+      "Philippi",
+      [
+        "Philippi",
+        "Jericho",
+        "Babylon",
+        "Nazareth"
+      ],
+      "Acts 16:12",
+      "From thence to Philippi, which is the chief city of that part of Macedonia.",
+      "Acts identifies Philippi in Macedonia."
+    ],
+    [
+      "Where did Paul and Silas go after Thessalonica?",
+      "Berea",
+      [
+        "Berea",
+        "Rome",
+        "Bethlehem",
+        "Malta"
+      ],
+      "Acts 17:10",
+      "The brethren immediately sent away Paul and Silas by night unto Berea.",
+      "Acts records their night departure to Berea."
+    ],
+    [
+      "Where did Paul speak from Mars' hill / the Areopagus?",
+      "Athens",
+      [
+        "Athens",
+        "Corinth",
+        "Ephesus",
+        "Jerusalem"
+      ],
+      "Acts 17:22",
+      "Paul stood in the midst of Mars' hill, and said, Ye men of Athens.",
+      "The address occurs in Athens."
+    ],
+    [
+      "How long did Paul remain teaching in Corinth according to Acts 18:11?",
+      "A year and six months",
+      [
+        "A year and six months",
+        "Forty days",
+        "Seven years",
+        "Three days"
+      ],
+      "Acts 18:11",
+      "He continued there a year and six months, teaching the word of God among them.",
+      "Acts gives the duration directly."
+    ],
+    [
+      "Which city did Paul come to in Acts 19:1?",
+      "Ephesus",
+      [
+        "Ephesus",
+        "Nazareth",
+        "Babylon",
+        "Jericho"
+      ],
+      "Acts 19:1",
+      "Paul... came to Ephesus.",
+      "Acts 19 centers on ministry in Ephesus."
+    ],
+    [
+      "Where does Acts 28:16 say Paul arrived?",
+      "Rome",
+      [
+        "Rome",
+        "Athens",
+        "Antioch",
+        "Jerusalem"
+      ],
+      "Acts 28:16",
+      "When we came to Rome, the centurion delivered the prisoners.",
+      "Acts concludes the voyage with arrival in Rome."
+    ]
+  ],
+  "churches": [
+    [
+      "Which church is told it has left its first love?",
+      "Ephesus",
+      [
+        "Ephesus",
+        "Smyrna",
+        "Sardis",
+        "Laodicea"
+      ],
+      "Revelation 2:4",
+      "Nevertheless I have somewhat against thee, because thou hast left thy first love.",
+      "The warning appears in Christ's message to Ephesus."
+    ],
+    [
+      "Which church is told to be faithful unto death?",
+      "Smyrna",
+      [
+        "Smyrna",
+        "Thyatira",
+        "Sardis",
+        "Philadelphia"
+      ],
+      "Revelation 2:10",
+      "Be thou faithful unto death, and I will give thee a crown of life.",
+      "This encouragement is addressed to Smyrna."
+    ],
+    [
+      "Which church is told, \u201cI know thy works, and where thou dwellest\u201d?",
+      "Pergamum",
+      [
+        "Pergamum",
+        "Ephesus",
+        "Laodicea",
+        "Sardis"
+      ],
+      "Revelation 2:13",
+      "I know thy works, and where thou dwellest.",
+      "This is in the message to Pergamum."
+    ],
+    [
+      "Which church is told to be watchful?",
+      "Sardis",
+      [
+        "Sardis",
+        "Smyrna",
+        "Thyatira",
+        "Ephesus"
+      ],
+      "Revelation 3:2",
+      "Be watchful, and strengthen the things which remain.",
+      "The call to wakefulness belongs to Sardis."
+    ],
+    [
+      "Which church is said to have \u201ca little strength\u201d?",
+      "Philadelphia",
+      [
+        "Philadelphia",
+        "Pergamum",
+        "Sardis",
+        "Laodicea"
+      ],
+      "Revelation 3:8",
+      "Thou hast a little strength, and hast kept my word.",
+      "The phrase appears in the message to Philadelphia."
+    ],
+    [
+      "Which church is called lukewarm?",
+      "Laodicea",
+      [
+        "Laodicea",
+        "Smyrna",
+        "Ephesus",
+        "Philadelphia"
+      ],
+      "Revelation 3:16",
+      "Because thou art lukewarm... I will spue thee out of my mouth.",
+      "The lukewarm warning is addressed to Laodicea."
+    ]
+  ],
+  "temple": [
+    [
+      "What separated the Holy Place from the Most Holy Place?",
+      "The veil",
+      [
+        "The veil",
+        "A city wall",
+        "A river",
+        "A gate of iron"
+      ],
+      "Exodus 26:33",
+      "The vail shall divide unto you between the holy place and the most holy.",
+      "Exodus explicitly describes the veil as the divider."
+    ],
+    [
+      "Which object was made for washing?",
+      "The laver",
+      [
+        "The laver",
+        "The Ark",
+        "The menorah",
+        "The table"
+      ],
+      "Exodus 30:18",
+      "Thou shalt also make a laver of brass... to wash withal.",
+      "The laver is described as being for washing."
+    ],
+    [
+      "Which object is described in Exodus 27:1?",
+      "The altar",
+      [
+        "The altar",
+        "The Ark",
+        "The veil",
+        "The lampstand"
+      ],
+      "Exodus 27:1",
+      "Thou shalt make an altar of shittim wood.",
+      "Exodus 27 opens with instructions for the altar."
+    ],
+    [
+      "Where does God say, \u201cthere I will meet with thee\u201d?",
+      "Above the mercy seat",
+      [
+        "Above the mercy seat",
+        "At the city gate",
+        "By the sea",
+        "At the palace"
+      ],
+      "Exodus 25:22",
+      "There I will meet with thee, and I will commune with thee from above the mercy seat.",
+      "The verse connects the meeting place with the mercy seat."
+    ],
+    [
+      "What filled the tabernacle after it was set up?",
+      "The glory of the LORD",
+      [
+        "The glory of the LORD",
+        "Smoke from Rome",
+        "Rain water",
+        "Temple soldiers"
+      ],
+      "Exodus 40:34",
+      "Then a cloud covered the tent of the congregation, and the glory of the LORD filled the tabernacle.",
+      "Exodus describes the cloud and the glory filling the tabernacle."
+    ]
+  ]
+}
