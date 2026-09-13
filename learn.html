@@ -4,15 +4,15 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Interactive Bible atlas and learning platform.">
 <title>Learn — Scripture Atlas</title>
-<link rel="stylesheet" href="assets/styles.css">
+<meta name="theme-color" content="#0b2230"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
 <header class="site-header">
-  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Bible geography • history • learning</small></span></a>
   <button class="menu-btn" id="menuBtn">Menu</button>
-  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="active" href="learn.html">Learn</a></nav>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="active" href="learn.html">Learn</a><a class="" href="games.html">Games</a></nav>
   <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
 </header>
 <main id="main">
@@ -27,11 +27,18 @@
 <article class="tool-card"><span class="eyebrow">Interfaith / academic</span><h3>Compare without disrespect</h3><p>Visitors can study geography and history without being required to share Christian belief, while Christian interpretation remains clearly identified.</p></article>
 </div>
 </section>
-</main>
-<footer>
-  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
-  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
-</footer>
+
+<section class="section">
+<div class="section-head"><div><span class="eyebrow">Interactive learning</span><h2>Go beyond reading.</h2></div><p>Quizzes, typing, memory, journey ordering and daily challenges make the atlas much more engaging for every age.</p></div>
+<div class="learn-grid">
+<article class="tool-card"><span class="eyebrow">Bible quizzes</span><h3>Six quiz categories</h3><p>Places, journeys, empires, Paul, seven churches and the Tabernacle.</p><a class="btn primary" href="games.html">Play quizzes</a></article>
+<article class="tool-card"><span class="eyebrow">Typing test</span><h3>Speed + accuracy</h3><p>Practice Bible-related text with WPM and accuracy scoring.</p><a class="btn ghost" href="games.html#typing">Start typing</a></article>
+<article class="tool-card"><span class="eyebrow">Memory</span><h3>Match Bible concepts</h3><p>Pair people, places and events in a flip-card game.</p><a class="btn ghost" href="games.html">Play memory</a></article>
+<article class="tool-card"><span class="eyebrow">Journey order</span><h3>Rebuild the route</h3><p>Put Abraham, Exodus, Jesus and Paul's stops in sequence.</p><a class="btn ghost" href="games.html">Try challenge</a></article>
+<article class="tool-card"><span class="eyebrow">Daily challenge</span><h3>Build a study streak</h3><p>Complete a small activity each day; progress stays in the browser.</p><a class="btn ghost" href="games.html">Today's challenge</a></article>
+<article class="tool-card"><span class="eyebrow">All ages</span><h3>Play with purpose</h3><p>Simple enough for children, meaningful enough for adults and classrooms.</p><a class="btn ghost" href="games.html">Open Games</a></article>
+</div></section></main>
+<footer class="pro-footer"><div><div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div><p>Explore the geography, journeys and historical settings of Scripture with care.</p></div><div class="footer-links"><a href="atlas.html">Atlas</a><a href="learn.html">Learn</a><a href="games.html">Games</a><a href="about.html">About</a><a href="README.md">Project notes</a></div><small>Source imagery: Bible Class Atlas / eBibleTeacher material supplied with this project. Original website interface and educational presentation.</small></footer>
 <div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
 <div class="toast" id="toast" role="status"></div>
 <script src="assets/app.js"></script>

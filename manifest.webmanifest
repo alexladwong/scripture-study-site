@@ -1,0 +1,8 @@
+{
+  "name": "Scripture Atlas",
+  "short_name": "Scripture Atlas",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f5efe2",
+  "theme_color": "#0b2230"
+}

@@ -1,49 +1,31 @@
-# Scripture Atlas — Rich Interactive Website v2
+# Scripture Atlas — Professional Edition
 
-This is a significantly expanded static website based on the structure and topics of the supplied **Bible Class Atlas**.
+A polished interactive Bible geography and learning website based on the supplied **Bible Class Atlas** source material.
 
-## Open
-Open `index.html` directly in a modern browser. No server or installation is required.
+## What changed in this professional pass
 
-## Pages
-- `index.html` — rich home portal
-- `atlas.html` — interactive original SVG Bible-world atlas
-- `timeline.html` — biblical-history timeline
-- `journeys.html` — 8 step-by-step journeys
-- `jesus.html` — Jesus / childhood geography
-- `paul.html` — Paul's missionary world
-- `empires.html` — Assyria, Babylon, Persia, Alexander, Rome
-- `temples.html` — interactive Tabernacle + temple comparison
-- `churches.html` — Seven Churches of Revelation
-- `learn.html` — quizzes, measurements, teaching tools
+- Consolidated the project to **one canonical deployable website** and removed the competing `/site` implementation.
+- Added a refined editorial homepage with selective source imagery.
+- Added favicon, web manifest, Open Graph metadata and theme metadata.
+- Brought selected source atlas visuals into `/assets/images` for context-rich pages.
+- Added a professional source/transparency page (`about.html`).
+- Upgraded page hierarchy, typography, card system, spacing, responsive design and footer.
+- Preserved the Atlas, Timeline, Journeys, Jesus, Paul, Empires, Temples, Seven Churches, Learn and Games experiences.
+- Preserved the interactive quiz arena, Bible typing test, memory challenge, journey ordering, score/streak storage, theme toggle and global search.
+- Removed Git metadata, Mac metadata, duplicate front-end files and conversion workspace from the distributable package.
 
-## Interactions
-- Map place selection
-- OT / NT map filters
-- Route overlays
-- Global search with Cmd/Ctrl+K
-- Light/dark theme
-- Explorer / Student / Scholar / Teacher / Child mode cycling
-- Interactive journeys
-- Interactive Tabernacle
-- Bible measurement converter
-- Quiz feedback
-- Mobile navigation
-- Reduced-motion support
+## Run
 
-## Source discipline
-The uploaded atlas is the basis for the content structure and source-supported summaries. This build does not silently claim material that the atlas does not provide. For example, the Jesus page explicitly notes that the uploaded atlas supports childhood geography but not a complete ministry chronology.
+Open `index.html` directly, or deploy the folder as a static site. No build step is required.
 
-## Copyright approach
-The original slide artwork is not republished here. The site uses an original interface, original SVG diagrams/maps, paraphrased summaries, and the source's high-level educational structure.
+## Source / copyright note
 
-## Production next steps
-- Replace stylized atlas with MapLibre + custom historical GeoJSON
-- Create dedicated place pages for every city/region
-- Add full source-aware Bible references
-- Add more sourced Old Testament and New Testament events
-- Add downloadable worksheets / teacher lesson plans
-- Add multilingual support
-- Add optional Bible text from a properly licensed translation/API
-- Add real 3D Tabernacle / Temple scenes
-- Add bibliography and academic source notes
+The supplied Bible Class Atlas is copyrighted teaching material. Selected source visuals are included in this private project as teaching/source material. Do not assume unrestricted commercial republication rights. Review the source copyright notice before a public commercial launch.
+
+## Recommended production next steps
+
+- Deploy to a proper static host and set canonical URLs.
+- Replace simplified geographic layers with MapLibre + custom historical GeoJSON.
+- Add a licensed Bible translation/API for full passage reading.
+- Add bibliography / academic sources for historical claims.
+- Add multi-language support and printable teacher resources.
