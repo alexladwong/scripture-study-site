@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Bible atlas and learning platform.">
+<title>Timeline — Scripture Atlas</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="active" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="" href="learn.html">Learn</a></nav>
+  <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="breadcrumb">Home / Timeline</div><span class="eyebrow">Chronology</span><h1>Biblical History Timeline</h1><p>A high-level teaching sequence that connects the atlas' places and empires across major biblical eras.</p></section>
+<section class="section" style="padding-top:24px"><div class="timeline-shell"><div class="timeline-line"></div><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">01 · Eden, Noah, Babel</span><h3>Origins</h3><p>The source begins with primeval narratives and ancient-world orientation.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">02 · Abraham, Jacob, Joseph</span><h3>Patriarchs</h3><p>Journeys connect Mesopotamia, Canaan and Egypt.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">03 · Egypt, Sinai, Wilderness</span><h3>Exodus</h3><p>The route is presented traditionally and geographically.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">04 · Canaan, Tribes, Jericho</span><h3>Settlement</h3><p>The twelve tribes and surrounding nations become central.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">05 · David, Solomon, Jerusalem</span><h3>United Kingdom</h3><p>Jerusalem and the Temple rise in prominence.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">06 · Israel and Judah</span><h3>Divided Kingdom</h3><p>The source marks the political split after Solomon.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">07 · Israel, Judah, Exile</span><h3>Assyrian / Babylonian pressure</h3><p>Imperial power reshapes the biblical landscape.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">08 · Return and rebuilding</span><h3>Persian period</h3><p>Persia becomes the setting for return from exile.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">09 · Alexander and Hellenistic influence</span><h3>Greek world</h3><p>Greek culture forms background to the New Testament.</p></article><article class="timeline-item"><div class="timeline-dot"></div><span class="meta">10 · Jesus and early Church</span><h3>Roman world</h3><p>Rome frames the political world of the Gospels and Acts.</p></article></div></section>
+</main>
+<footer>
+  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
+  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
+</footer>
+<div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body></html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Bible atlas and learning platform.">
+<title>Bible Atlas — Scripture Atlas</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="active" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="" href="learn.html">Learn</a></nav>
+  <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="breadcrumb">Home / Atlas</div><span class="eyebrow">Interactive atlas</span><h1>Bible Lands</h1><p>Explore selected places drawn from the structure of the supplied atlas. The map is intentionally original rather than a copied slide image.</p></section>
+<section class="section" style="padding-top:24px">
+<div class="atlas-layout">
+<div class="map-wrap">
+<div class="map-toolbar"><span>Filter the map</span><div class="filters"><button class="active" data-map-filter="all">All</button><button data-map-filter="OT">Old Testament</button><button data-map-filter="NT">New Testament</button><button data-map-filter="PAUL">Paul routes</button></div></div>
+
+<svg id="atlasMap" viewBox="0 0 1100 720" aria-label="Stylized map of Bible lands">
+<defs>
+<linearGradient id="sea" x1="0" x2="1"><stop offset="0" stop-color="#0e3449"/><stop offset="1" stop-color="#071c29"/></linearGradient>
+<filter id="soft"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".22"/></filter>
+</defs>
+<rect width="1100" height="720" rx="30" fill="url(#sea)"/>
+<path class="landmass" d="M0 140 C150 115 236 145 335 120 C437 95 548 111 650 145 C760 181 873 154 1100 120 L1100 720 L0 720Z"/>
+<path class="landmass secondary" d="M760 0 C820 70 842 125 836 178 C828 248 866 294 948 328 L1100 365 L1100 0Z"/>
+<path class="river" d="M701 116 C668 198 683 260 642 331 C611 385 618 455 600 555"/>
+<path class="sea-label" d="M250 300 C390 245 486 254 585 276"/>
+<text x="170" y="340" class="water-label">MEDITERRANEAN SEA</text>
+<g class="region-labels">
+<text x="720" y="190">MESOPOTAMIA</text><text x="530" y="480">CANAAN / ISRAEL</text><text x="410" y="600">SINAI</text><text x="255" y="555">EGYPT</text><text x="150" y="190">GREECE / AEGEAN</text><text x="400" y="180">ASIA MINOR</text>
+</g>
+<g class="route-layer route-abraham"><path d="M785 225 C720 250 661 290 610 342 C576 377 560 426 548 470"/></g>
+<g class="route-layer route-exodus"><path d="M320 540 C385 575 445 600 515 586 C563 576 592 539 610 500"/></g>
+<g class="route-layer route-paul"><path d="M512 333 C430 290 362 268 295 283 C227 298 182 252 111 216"/></g>
+<g class="pins">
+<button class="map-pin" data-place="jerusalem" data-era="OT / NT"><circle cx="592" cy="470" r="8"/><text x="605" y="475">Jerusalem</text></button>
+<button class="map-pin" data-place="bethlehem" data-era="OT / NT"><circle cx="590" cy="490" r="8"/><text x="603" y="495">Bethlehem</text></button>
+<button class="map-pin" data-place="nazareth" data-era="NT"><circle cx="585" cy="420" r="8"/><text x="598" y="425">Nazareth</text></button>
+<button class="map-pin" data-place="capernaum" data-era="NT"><circle cx="604" cy="400" r="8"/><text x="617" y="405">Capernaum</text></button>
+<button class="map-pin" data-place="jericho" data-era="OT / NT"><circle cx="610" cy="460" r="8"/><text x="623" y="465">Jericho</text></button>
+<button class="map-pin" data-place="sinai" data-era="OT"><circle cx="476" cy="590" r="8"/><text x="489" y="595">Mount Sinai Region</text></button>
+<button class="map-pin" data-place="babylon" data-era="OT"><circle cx="785" cy="225" r="8"/><text x="798" y="230">Babylon</text></button>
+<button class="map-pin" data-place="ur" data-era="OT"><circle cx="820" cy="295" r="8"/><text x="833" y="300">Ur / Chaldean Region</text></button>
+<button class="map-pin" data-place="haran" data-era="OT"><circle cx="705" cy="220" r="8"/><text x="718" y="225">Haran</text></button>
+<button class="map-pin" data-place="corinth" data-era="NT"><circle cx="180" cy="285" r="8"/><text x="193" y="290">Corinth</text></button>
+<button class="map-pin" data-place="athens" data-era="NT"><circle cx="164" cy="303" r="8"/><text x="177" y="308">Athens</text></button>
+<button class="map-pin" data-place="ephesus" data-era="NT"><circle cx="340" cy="275" r="8"/><text x="353" y="280">Ephesus</text></button>
+<button class="map-pin" data-place="philippi" data-era="NT"><circle cx="214" cy="210" r="8"/><text x="227" y="215">Philippi</text></button>
+<button class="map-pin" data-place="thessalonica" data-era="NT"><circle cx="195" cy="224" r="8"/><text x="208" y="229">Thessalonica</text></button>
+<button class="map-pin" data-place="rome" data-era="NT"><circle cx="90" cy="215" r="8"/><text x="103" y="220">Rome</text></button>
+<button class="map-pin" data-place="malta" data-era="NT"><circle cx="180" cy="420" r="8"/><text x="193" y="425">Malta</text></button>
+</g></svg>
+</div>
+<aside class="inspector" id="placeInspector"><span class="eyebrow">Select a location</span><h2>Explore a place</h2><p>Tap any map pin to see its biblical context, references, region and certainty label.</p></aside>
+</div>
+</section>
+<section class="section"><div class="section-head"><div><span class="eyebrow">Place library</span><h2>Selected biblical places.</h2></div><p>These entries are brief by design but far deeper than the earlier prototype, and they are ready to be expanded into dedicated place pages.</p></div><div class="table-grid"><article class="info-card"><span class="mini">Biblical city</span><h3>Jerusalem</h3><p>A central city across the kingdom period, Temple worship, the life of Jesus, and the early Church.</p><div class="ref-list"><span>2 Samuel 5</span><span>1 Kings 8</span><span>Luke 19–24</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Bethlehem</h3><p>Connected with David and presented in the New Testament as the birthplace of Jesus.</p><div class="ref-list"><span>Ruth 1–4</span><span>1 Samuel 16</span><span>Micah 5:2</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Nazareth</h3><p>The Galilean town associated with Jesus' upbringing and public identity as Jesus of Nazareth.</p><div class="ref-list"><span>Matthew 2:23</span><span>Luke 1–4</span><span>John 1:46</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Capernaum</h3><p>A major setting for Jesus' Galilean ministry near the Sea of Galilee.</p><div class="ref-list"><span>Matthew 4:13</span><span>Mark 1–2</span><span>Luke 4</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Jericho</h3><p>A city associated with the conquest narratives and later New Testament events.</p><div class="ref-list"><span>Joshua 6</span><span>Luke 10</span><span>Luke 18–19</span></div></article><article class="info-card"><span class="mini">Traditional region; exact mountain uncertain</span><h3>Mount Sinai Region</h3><p>Traditional regional setting connected with Israel's wilderness journey and covenant at Sinai.</p><div class="ref-list"><span>Exodus 19–24</span></div></article><article class="info-card"><span class="mini">Historical city</span><h3>Babylon</h3><p>A major imperial center connected with Judah's exile and the book of Daniel.</p><div class="ref-list"><span>2 Kings 24–25</span><span>Daniel 1–6</span></div></article><article class="info-card"><span class="mini">Regional identification</span><h3>Ur / Chaldean Region</h3><p>Presented in the source as part of Abraham's origin setting before Haran and Canaan.</p><div class="ref-list"><span>Genesis 11:27–32</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Haran</h3><p>A key stopping point in the Abraham narratives before the move toward Canaan.</p><div class="ref-list"><span>Genesis 11:31–12:5</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Corinth</h3><p>A major Pauline city connected with Acts and the Corinthian correspondence.</p><div class="ref-list"><span>Acts 18</span><span>1 Corinthians</span><span>2 Corinthians</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Athens</h3><p>A Greek city associated with Paul's speech at the Areopagus.</p><div class="ref-list"><span>Acts 17:16–34</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Ephesus</h3><p>A major Pauline ministry center and one of the seven churches addressed in Revelation.</p><div class="ref-list"><span>Acts 18–20</span><span>Ephesians</span><span>Revelation 2:1–7</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Philippi</h3><p>A Macedonian city tied to Paul's mission and the letter to the Philippians.</p><div class="ref-list"><span>Acts 16</span><span>Philippians</span></div></article><article class="info-card"><span class="mini">Biblical city</span><h3>Thessalonica</h3><p>A major Macedonian stop connected with Paul's mission and two New Testament letters.</p><div class="ref-list"><span>Acts 17</span><span>1 Thessalonians</span><span>2 Thessalonians</span></div></article><article class="info-card"><span class="mini">Historical / Biblical city</span><h3>Rome</h3><p>The imperial center and destination of Paul's journey in Acts 27–28.</p><div class="ref-list"><span>Acts 27–28</span><span>Romans</span></div></article><article class="info-card"><span class="mini">Biblical island</span><h3>Malta</h3><p>Island associated in Acts with Paul's shipwreck on the journey to Rome.</p><div class="ref-list"><span>Acts 28:1–10</span></div></article></div></section>
+</main>
+<footer>
+  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
+  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
+</footer>
+<div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body></html>

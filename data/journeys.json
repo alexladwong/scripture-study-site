@@ -1,0 +1,296 @@
+[
+  {
+    "slug": "abraham",
+    "title": "Abraham \u2014 Journey of Faith",
+    "group": "Old Testament",
+    "summary": "Follow the movement from Mesopotamia through Haran into Canaan, down to Egypt, and back into the land.",
+    "stops": [
+      [
+        "Ur / Chaldean region",
+        "Genesis 11:27\u201332",
+        "Origin setting in the Mesopotamian world."
+      ],
+      [
+        "Haran",
+        "Genesis 11:31\u201312:5",
+        "A major stopping point before entering Canaan."
+      ],
+      [
+        "Canaan",
+        "Genesis 12:5\u20139",
+        "The land presented as the destination of Abram's call."
+      ],
+      [
+        "Egypt",
+        "Genesis 12:10\u201320",
+        "Famine leads Abram south into Egypt."
+      ],
+      [
+        "Negev / Canaan",
+        "Genesis 13",
+        "Abram returns and later separates from Lot."
+      ]
+    ]
+  },
+  {
+    "slug": "joseph",
+    "title": "Joseph \u2014 From Canaan to Egypt",
+    "group": "Old Testament",
+    "summary": "Trace Joseph's forced journey into Egypt and the later movement of Jacob's family into Goshen.",
+    "stops": [
+      [
+        "Canaan",
+        "Genesis 37",
+        "Joseph begins within Jacob's household."
+      ],
+      [
+        "Caravan route",
+        "Genesis 37:25\u201328",
+        "Joseph is sold and taken toward Egypt."
+      ],
+      [
+        "Egypt",
+        "Genesis 39\u201341",
+        "Service, imprisonment, and rise under Pharaoh."
+      ],
+      [
+        "Goshen",
+        "Genesis 45\u201347",
+        "Jacob's family relocates during famine."
+      ]
+    ]
+  },
+  {
+    "slug": "exodus",
+    "title": "The Exodus \u2014 Egypt to Canaan",
+    "group": "Old Testament",
+    "summary": "A teaching route built from the traditional regional sequence in the source atlas.",
+    "stops": [
+      [
+        "Egypt",
+        "Exodus 1\u201312",
+        "Israelite slavery, Passover, and departure."
+      ],
+      [
+        "Red Sea region",
+        "Exodus 14",
+        "The source maps a traditional regional route; the exact crossing is debated."
+      ],
+      [
+        "Wilderness",
+        "Exodus 16",
+        "Manna and quail are highlighted in the source."
+      ],
+      [
+        "Mount Sinai region",
+        "Exodus 19\u201324",
+        "Traditional regional identification; exact mountain uncertain."
+      ],
+      [
+        "Wilderness / spies",
+        "Numbers 13\u201314",
+        "The atlas marks the episode of the twelve spies."
+      ],
+      [
+        "Jericho / Canaan",
+        "Joshua 1\u20136",
+        "The source uses Jericho as part of the movement into Canaan."
+      ]
+    ]
+  },
+  {
+    "slug": "jesus-childhood",
+    "title": "Jesus \u2014 Childhood Geography",
+    "group": "New Testament",
+    "summary": "The source follows Bethlehem, Jerusalem, Egypt, Nazareth, and Jerusalem again.",
+    "stops": [
+      [
+        "Bethlehem",
+        "Matthew 2; Luke 2",
+        "Presented as the birthplace of Jesus."
+      ],
+      [
+        "Jerusalem",
+        "Luke 2:21\u201340",
+        "Early visit connected with Temple observance."
+      ],
+      [
+        "Egypt",
+        "Matthew 2:13\u201318",
+        "The family's flight from Herod."
+      ],
+      [
+        "Nazareth",
+        "Matthew 2:19\u201323; Luke 2:39",
+        "The family settles in Galilee."
+      ],
+      [
+        "Jerusalem",
+        "Luke 2:41\u201352",
+        "Jesus in the Temple at age twelve."
+      ]
+    ]
+  },
+  {
+    "slug": "paul-1",
+    "title": "Paul \u2014 First Missionary Journey",
+    "group": "Early Church",
+    "summary": "A route associated with Acts 13\u201314 through Cyprus and southern Asia Minor.",
+    "stops": [
+      [
+        "Antioch",
+        "Acts 13:1\u20133",
+        "Sending community for the journey."
+      ],
+      [
+        "Seleucia",
+        "Acts 13:4",
+        "Port departure."
+      ],
+      [
+        "Salamis",
+        "Acts 13:5",
+        "Arrival in Cyprus."
+      ],
+      [
+        "Paphos",
+        "Acts 13:6\u201312",
+        "Ministry in western Cyprus."
+      ],
+      [
+        "Perga",
+        "Acts 13:13",
+        "Entry into Asia Minor."
+      ],
+      [
+        "Pisidian Antioch",
+        "Acts 13:14\u201352",
+        "Major preaching stop."
+      ],
+      [
+        "Iconium",
+        "Acts 14:1\u20137",
+        "Continued mission."
+      ],
+      [
+        "Lystra",
+        "Acts 14:8\u201320",
+        "Healing and opposition."
+      ],
+      [
+        "Derbe",
+        "Acts 14:20\u201321",
+        "Further preaching before return."
+      ]
+    ]
+  },
+  {
+    "slug": "paul-2",
+    "title": "Paul \u2014 Second Missionary Journey",
+    "group": "Early Church",
+    "summary": "Travel through Macedonia and Achaia, connecting Acts with cities later receiving New Testament letters.",
+    "stops": [
+      [
+        "Antioch",
+        "Acts 15:36",
+        "Beginning of the journey."
+      ],
+      [
+        "Philippi",
+        "Acts 16",
+        "Macedonian ministry."
+      ],
+      [
+        "Thessalonica",
+        "Acts 17:1\u20139",
+        "Preaching and opposition."
+      ],
+      [
+        "Berea",
+        "Acts 17:10\u201315",
+        "Further teaching."
+      ],
+      [
+        "Athens",
+        "Acts 17:16\u201334",
+        "Areopagus address."
+      ],
+      [
+        "Corinth",
+        "Acts 18:1\u201318",
+        "Extended ministry."
+      ],
+      [
+        "Ephesus",
+        "Acts 18:19\u201321",
+        "Brief stop before return."
+      ]
+    ]
+  },
+  {
+    "slug": "paul-3",
+    "title": "Paul \u2014 Third Missionary Journey",
+    "group": "Early Church",
+    "summary": "A revisiting journey centered strongly on Ephesus and earlier mission fields.",
+    "stops": [
+      [
+        "Antioch",
+        "Acts 18:23",
+        "Departure."
+      ],
+      [
+        "Galatia / Phrygia",
+        "Acts 18:23",
+        "Strengthening disciples."
+      ],
+      [
+        "Ephesus",
+        "Acts 19",
+        "Extended ministry and conflict."
+      ],
+      [
+        "Macedonia",
+        "Acts 20:1\u20132",
+        "Travel through earlier mission territory."
+      ],
+      [
+        "Corinth / Greece",
+        "Acts 20:2\u20133",
+        "Further ministry before return."
+      ],
+      [
+        "Jerusalem",
+        "Acts 21",
+        "End of the journey sequence."
+      ]
+    ]
+  },
+  {
+    "slug": "paul-rome",
+    "title": "Paul \u2014 Journey to Rome",
+    "group": "Early Church",
+    "summary": "The final major journey in the source atlas, including the shipwreck at Malta.",
+    "stops": [
+      [
+        "Caesarea",
+        "Acts 27",
+        "Departure under guard."
+      ],
+      [
+        "Mediterranean voyage",
+        "Acts 27",
+        "A difficult sea journey toward Italy."
+      ],
+      [
+        "Malta",
+        "Acts 27:39\u201328:10",
+        "Shipwreck and stay on the island."
+      ],
+      [
+        "Rome",
+        "Acts 28",
+        "Arrival in the imperial capital."
+      ]
+    ]
+  }
+]

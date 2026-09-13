@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Bible atlas and learning platform.">
+<title>Paul — Scripture Atlas</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="active" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="" href="learn.html">Learn</a></nav>
+  <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="breadcrumb">Home / Paul</div><span class="eyebrow">Acts & the early Church</span><h1>Paul's Missionary World</h1><p>The atlas is especially strong here: three missionary journeys, the route to Caesarea, the voyage to Rome, letters to churches, Corinth, Athens, Thessalonica, Berea and the seven churches.</p></section>
+<section class="section" style="padding-top:24px"><div class="table-grid"><article class="info-card"><span class="mini">Early Church</span><h3>Paul — First Missionary Journey</h3><p>A route associated with Acts 13–14 through Cyprus and southern Asia Minor.</p><a class="btn ghost" href="journeys.html#paul-1">Open route</a></article><article class="info-card"><span class="mini">Early Church</span><h3>Paul — Second Missionary Journey</h3><p>Travel through Macedonia and Achaia, connecting Acts with cities later receiving New Testament letters.</p><a class="btn ghost" href="journeys.html#paul-2">Open route</a></article><article class="info-card"><span class="mini">Early Church</span><h3>Paul — Third Missionary Journey</h3><p>A revisiting journey centered strongly on Ephesus and earlier mission fields.</p><a class="btn ghost" href="journeys.html#paul-3">Open route</a></article><article class="info-card"><span class="mini">Early Church</span><h3>Paul — Journey to Rome</h3><p>The final major journey in the source atlas, including the shipwreck at Malta.</p><a class="btn ghost" href="journeys.html#paul-rome">Open route</a></article></div></section>
+<section class="section"><div class="section-head"><div><span class="eyebrow">Cities and letters</span><h2>Connect place, journey and letter.</h2></div><p>This is one of the most powerful directions for the final product: from a city, visitors can move to Acts, Paul's visit, and related letters.</p></div>
+<div class="table-grid">
+<article class="info-card"><h3>Corinth</h3><p>Acts 18 → 1 Corinthians → 2 Corinthians</p></article>
+<article class="info-card"><h3>Philippi</h3><p>Acts 16 → Philippians</p></article>
+<article class="info-card"><h3>Thessalonica</h3><p>Acts 17 → 1 Thessalonians → 2 Thessalonians</p></article>
+<article class="info-card"><h3>Ephesus</h3><p>Acts 18–20 → Ephesians → Revelation 2:1–7</p></article>
+</div></section>
+</main>
+<footer>
+  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
+  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
+</footer>
+<div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body></html>

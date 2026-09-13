@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Assyrian Empire",
+    "period": "Major biblical relevance in the 8th\u20137th centuries BC",
+    "summary": "The source connects Assyrian expansion with the northern kingdom of Israel and pressure on Judah.",
+    "links": [
+      "2 Kings 17",
+      "2 Kings 18\u201319",
+      "Isaiah"
+    ]
+  },
+  {
+    "name": "Babylonian Empire",
+    "period": "Neo-Babylonian period",
+    "summary": "Connected with Jerusalem's fall, Judah's exile, Nebuchadnezzar, and Daniel.",
+    "links": [
+      "2 Kings 24\u201325",
+      "Daniel 1\u20136"
+    ]
+  },
+  {
+    "name": "Persian Empire",
+    "period": "From Cyrus and the fall of Babylon",
+    "summary": "The source links Persia with the return of exiles and the settings of Ezra, Nehemiah, and Esther.",
+    "links": [
+      "Ezra",
+      "Nehemiah",
+      "Esther"
+    ]
+  },
+  {
+    "name": "Alexander's Empire",
+    "period": "4th century BC",
+    "summary": "The source emphasizes the spread of Greek language and culture as background to the New Testament world.",
+    "links": [
+      "Intertestamental background"
+    ]
+  },
+  {
+    "name": "Roman Empire",
+    "period": "New Testament era",
+    "summary": "The atlas presents Rome as the political setting of Jesus' lifetime and the early Christian mission.",
+    "links": [
+      "Gospels",
+      "Acts",
+      "Romans"
+    ]
+  }
+]

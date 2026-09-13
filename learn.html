@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Bible atlas and learning platform.">
+<title>Learn — Scripture Atlas</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="active" href="learn.html">Learn</a></nav>
+  <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="breadcrumb">Home / Learn</div><span class="eyebrow">Tools for all ages</span><h1>Learn, Teach & Test Yourself</h1><p>Use short activities for family learning, Sunday School, classroom discussion, personal study and introductory academic exploration.</p></section>
+<section class="section" style="padding-top:24px">
+<div class="learn-grid">
+<article class="tool-card"><span class="eyebrow">Quick quiz</span><h3>Which city is strongly associated with Judah's exile?</h3><div class="quiz-options"><button data-quiz-answer="wrong">Athens</button><button data-quiz-answer="correct">Babylon</button><button data-quiz-answer="wrong">Rome</button></div><p id="quizResult"></p></article>
+<article class="tool-card"><span class="eyebrow">Bible measurements</span><h3>Convert ancient length units</h3><div class="calculator"><input id="measureValue" type="number" value="300"><select id="measureUnit"><option value="cubit">Cubits</option><option value="reed">Reeds</option><option value="span">Spans</option><option value="handbreadth">Handbreadths</option><option value="finger">Fingers</option></select><button class="btn primary" id="measureBtn">Convert</button></div><p id="measureResult">Use the converter.</p><small style="color:var(--muted)">The source uses 18 inches as a teaching estimate for one cubit and 9 feet for one reed.</small></article>
+<article class="tool-card"><span class="eyebrow">Teacher mode</span><h3>Discussion starter</h3><p>What is the difference between a biblical location, a traditional location, and a historically uncertain identification?</p><button class="btn ghost" data-toast="Discussion prompt ready to use">Use this prompt</button></article>
+<article class="tool-card"><span class="eyebrow">Map activity</span><h3>Trace Paul's second journey</h3><p>Identify Philippi, Thessalonica, Berea, Athens, Corinth and Ephesus in sequence.</p><a class="btn ghost" href="journeys.html#paul-2">Start activity</a></article>
+<article class="tool-card"><span class="eyebrow">All ages</span><h3>Age-based learning path</h3><p>Child mode can simplify explanations, while Scholar mode can expose more chronology, uncertainty and source distinctions.</p><button class="btn ghost" id="ageQuizBtn">Preview mode idea</button></article>
+<article class="tool-card"><span class="eyebrow">Interfaith / academic</span><h3>Compare without disrespect</h3><p>Visitors can study geography and history without being required to share Christian belief, while Christian interpretation remains clearly identified.</p></article>
+</div>
+</section>
+</main>
+<footer>
+  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
+  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
+</footer>
+<div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body></html>

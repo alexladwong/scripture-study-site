@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Bible atlas and learning platform.">
+<title>Empires — Scripture Atlas</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="active" href="empires.html">Empires</a><a class="" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="" href="learn.html">Learn</a></nav>
+  <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="breadcrumb">Home / Empires</div><span class="eyebrow">Historical context</span><h1>Empires Around the Bible</h1><p>The source moves from Assyria to Babylon, Persia, Alexander's empire and Rome. This sequence helps visitors place biblical events within changing political worlds.</p></section>
+<section class="section" style="padding-top:24px"><div class="table-grid"><article class="info-card"><span class="mini">Major biblical relevance in the 8th–7th centuries BC</span><h3>Assyrian Empire</h3><p>The source connects Assyrian expansion with the northern kingdom of Israel and pressure on Judah.</p><div class="ref-list"><span>2 Kings 17</span><span>2 Kings 18–19</span><span>Isaiah</span></div></article><article class="info-card"><span class="mini">Neo-Babylonian period</span><h3>Babylonian Empire</h3><p>Connected with Jerusalem's fall, Judah's exile, Nebuchadnezzar, and Daniel.</p><div class="ref-list"><span>2 Kings 24–25</span><span>Daniel 1–6</span></div></article><article class="info-card"><span class="mini">From Cyrus and the fall of Babylon</span><h3>Persian Empire</h3><p>The source links Persia with the return of exiles and the settings of Ezra, Nehemiah, and Esther.</p><div class="ref-list"><span>Ezra</span><span>Nehemiah</span><span>Esther</span></div></article><article class="info-card"><span class="mini">4th century BC</span><h3>Alexander's Empire</h3><p>The source emphasizes the spread of Greek language and culture as background to the New Testament world.</p><div class="ref-list"><span>Intertestamental background</span></div></article><article class="info-card"><span class="mini">New Testament era</span><h3>Roman Empire</h3><p>The atlas presents Rome as the political setting of Jesus' lifetime and the early Christian mission.</p><div class="ref-list"><span>Gospels</span><span>Acts</span><span>Romans</span></div></article></div></section>
+<section class="section"><div class="notice"><strong>Academic presentation rule:</strong> historical context should not be confused with theological interpretation, and simplified atlas dates should be expanded carefully in a production edition using current academic references.</div></section>
+</main>
+<footer>
+  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
+  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
+</footer>
+<div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body></html>

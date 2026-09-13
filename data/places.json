@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "jerusalem",
+    "name": "Jerusalem",
+    "region": "Judea",
+    "era": "OT / NT",
+    "summary": "A central city across the kingdom period, Temple worship, the life of Jesus, and the early Church.",
+    "refs": [
+      "2 Samuel 5",
+      "1 Kings 8",
+      "Luke 19\u201324",
+      "Acts 1\u20137"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "bethlehem",
+    "name": "Bethlehem",
+    "region": "Judea",
+    "era": "OT / NT",
+    "summary": "Connected with David and presented in the New Testament as the birthplace of Jesus.",
+    "refs": [
+      "Ruth 1\u20134",
+      "1 Samuel 16",
+      "Micah 5:2",
+      "Matthew 2",
+      "Luke 2"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "nazareth",
+    "name": "Nazareth",
+    "region": "Galilee",
+    "era": "NT",
+    "summary": "The Galilean town associated with Jesus' upbringing and public identity as Jesus of Nazareth.",
+    "refs": [
+      "Matthew 2:23",
+      "Luke 1\u20134",
+      "John 1:46"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "capernaum",
+    "name": "Capernaum",
+    "region": "Galilee",
+    "era": "NT",
+    "summary": "A major setting for Jesus' Galilean ministry near the Sea of Galilee.",
+    "refs": [
+      "Matthew 4:13",
+      "Mark 1\u20132",
+      "Luke 4"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "jericho",
+    "name": "Jericho",
+    "region": "Jordan Valley",
+    "era": "OT / NT",
+    "summary": "A city associated with the conquest narratives and later New Testament events.",
+    "refs": [
+      "Joshua 6",
+      "Luke 10",
+      "Luke 18\u201319"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "sinai",
+    "name": "Mount Sinai Region",
+    "region": "Sinai Peninsula",
+    "era": "OT",
+    "summary": "Traditional regional setting connected with Israel's wilderness journey and covenant at Sinai.",
+    "refs": [
+      "Exodus 19\u201324"
+    ],
+    "status": "Traditional region; exact mountain uncertain"
+  },
+  {
+    "slug": "babylon",
+    "name": "Babylon",
+    "region": "Mesopotamia",
+    "era": "OT",
+    "summary": "A major imperial center connected with Judah's exile and the book of Daniel.",
+    "refs": [
+      "2 Kings 24\u201325",
+      "Daniel 1\u20136"
+    ],
+    "status": "Historical city"
+  },
+  {
+    "slug": "ur",
+    "name": "Ur / Chaldean Region",
+    "region": "Mesopotamia",
+    "era": "OT",
+    "summary": "Presented in the source as part of Abraham's origin setting before Haran and Canaan.",
+    "refs": [
+      "Genesis 11:27\u201332"
+    ],
+    "status": "Regional identification"
+  },
+  {
+    "slug": "haran",
+    "name": "Haran",
+    "region": "Upper Mesopotamia",
+    "era": "OT",
+    "summary": "A key stopping point in the Abraham narratives before the move toward Canaan.",
+    "refs": [
+      "Genesis 11:31\u201312:5"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "corinth",
+    "name": "Corinth",
+    "region": "Achaia",
+    "era": "NT",
+    "summary": "A major Pauline city connected with Acts and the Corinthian correspondence.",
+    "refs": [
+      "Acts 18",
+      "1 Corinthians",
+      "2 Corinthians"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "athens",
+    "name": "Athens",
+    "region": "Achaia",
+    "era": "NT",
+    "summary": "A Greek city associated with Paul's speech at the Areopagus.",
+    "refs": [
+      "Acts 17:16\u201334"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "ephesus",
+    "name": "Ephesus",
+    "region": "Asia Minor",
+    "era": "NT",
+    "summary": "A major Pauline ministry center and one of the seven churches addressed in Revelation.",
+    "refs": [
+      "Acts 18\u201320",
+      "Ephesians",
+      "Revelation 2:1\u20137"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "philippi",
+    "name": "Philippi",
+    "region": "Macedonia",
+    "era": "NT",
+    "summary": "A Macedonian city tied to Paul's mission and the letter to the Philippians.",
+    "refs": [
+      "Acts 16",
+      "Philippians"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "thessalonica",
+    "name": "Thessalonica",
+    "region": "Macedonia",
+    "era": "NT",
+    "summary": "A major Macedonian stop connected with Paul's mission and two New Testament letters.",
+    "refs": [
+      "Acts 17",
+      "1 Thessalonians",
+      "2 Thessalonians"
+    ],
+    "status": "Biblical city"
+  },
+  {
+    "slug": "rome",
+    "name": "Rome",
+    "region": "Italy",
+    "era": "NT",
+    "summary": "The imperial center and destination of Paul's journey in Acts 27\u201328.",
+    "refs": [
+      "Acts 27\u201328",
+      "Romans"
+    ],
+    "status": "Historical / Biblical city"
+  },
+  {
+    "slug": "malta",
+    "name": "Malta",
+    "region": "Mediterranean",
+    "era": "NT",
+    "summary": "Island associated in Acts with Paul's shipwreck on the journey to Rome.",
+    "refs": [
+      "Acts 28:1\u201310"
+    ],
+    "status": "Biblical island"
+  }
+]

@@ -1,65 +1,49 @@
-# Scripture Atlas — Interactive Bible World Prototype
+# Scripture Atlas — Rich Interactive Website v2
 
-A modern, responsive, zero-build website prototype inspired by the structure and teaching topics of the supplied **Bible Class Atlas**.
+This is a significantly expanded static website based on the structure and topics of the supplied **Bible Class Atlas**.
 
-## Open it
+## Open
+Open `index.html` directly in a modern browser. No server or installation is required.
 
-1. Unzip the folder.
-2. Open `index.html` in any modern browser.
-3. No installation, Node.js, server, or internet connection is required.
+## Pages
+- `index.html` — rich home portal
+- `atlas.html` — interactive original SVG Bible-world atlas
+- `timeline.html` — biblical-history timeline
+- `journeys.html` — 8 step-by-step journeys
+- `jesus.html` — Jesus / childhood geography
+- `paul.html` — Paul's missionary world
+- `empires.html` — Assyria, Babylon, Persia, Alexander, Rome
+- `temples.html` — interactive Tabernacle + temple comparison
+- `churches.html` — Seven Churches of Revelation
+- `learn.html` — quizzes, measurements, teaching tools
 
-## What is included
+## Interactions
+- Map place selection
+- OT / NT map filters
+- Route overlays
+- Global search with Cmd/Ctrl+K
+- Light/dark theme
+- Explorer / Student / Scholar / Teacher / Child mode cycling
+- Interactive journeys
+- Interactive Tabernacle
+- Bible measurement converter
+- Quiz feedback
+- Mobile navigation
+- Reduced-motion support
 
-- Interactive stylized Bible Lands overview
-- Old Testament / New Testament / Paul map filters
-- Clickable place information
-- Interactive biblical history timeline
-- Abraham journey
-- Exodus journey
-- Childhood of Jesus route
-- Paul's second missionary journey
-- Paul's journey to Rome
-- Classroom / discussion mode
-- Quiz interaction
-- Search (`Ctrl+K` or `Cmd+K`)
-- Light / dark theme
-- Fully responsive mobile navigation
-- Accessibility-minded controls and reduced-motion support
+## Source discipline
+The uploaded atlas is the basis for the content structure and source-supported summaries. This build does not silently claim material that the atlas does not provide. For example, the Jesus page explicitly notes that the uploaded atlas supports childhood geography but not a complete ministry chronology.
 
-## Design philosophy
+## Copyright approach
+The original slide artwork is not republished here. The site uses an original interface, original SVG diagrams/maps, paraphrased summaries, and the source's high-level educational structure.
 
-The site is explicitly rooted in Christian Scripture and Bible study, while remaining welcoming to visitors who do not share Christian beliefs.
-
-Content is intentionally distinguished as:
-
-- biblical text / reference
-- historical-geographical context
-- traditional location
-- uncertain location
-- Christian interpretation
-
-That makes the platform appropriate for churches, families, schools, universities, interfaith learning and general historical curiosity.
-
-## Source handling
-
-The supplied presentation states that it is copyrighted Sunday School literature and permits map reuse for Sunday School classes under stated conditions, while restricting resale as a map set.
-
-This prototype therefore does **not** republish the original slides or copy their map artwork. It uses the source's subject structure and creates a new interface, original vector map, original summaries and original interactions.
-
-For a public production launch, review attribution and any reused source material carefully.
-
-## Production expansion ideas
-
-- MapLibre or another map engine with custom historical GeoJSON layers
-- Full place database
-- Bible passage integration using an appropriately licensed translation/API
-- 3D Tabernacle and Temple explorer
-- More Pauline journeys
-- Seven Churches interactive route
-- Teacher lesson builder
-- Quizzes by age group
-- Printable classroom worksheets
-- Admin CMS
-- Search by Scripture reference
-- Multi-language support
-- Accessibility review
+## Production next steps
+- Replace stylized atlas with MapLibre + custom historical GeoJSON
+- Create dedicated place pages for every city/region
+- Add full source-aware Bible references
+- Add more sourced Old Testament and New Testament events
+- Add downloadable worksheets / teacher lesson plans
+- Add multilingual support
+- Add optional Bible text from a properly licensed translation/API
+- Add real 3D Tabernacle / Temple scenes
+- Add bibliography and academic source notes

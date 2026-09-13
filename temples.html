@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive Bible atlas and learning platform.">
+<title>Tabernacle & Temples — Scripture Atlas</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Explore the world of the Bible</small></span></a>
+  <button class="menu-btn" id="menuBtn">Menu</button>
+  <nav class="main-nav" id="mainNav"><a class="" href="index.html">Home</a><a class="" href="atlas.html">Atlas</a><a class="" href="timeline.html">Timeline</a><a class="" href="journeys.html">Journeys</a><a class="" href="jesus.html">Jesus</a><a class="" href="paul.html">Paul</a><a class="" href="empires.html">Empires</a><a class="active" href="temples.html">Temples</a><a class="" href="churches.html">7 Churches</a><a class="" href="learn.html">Learn</a></nav>
+  <div class="header-actions"><button class="chip-btn" id="modeBtn">Explorer</button><button class="icon-btn" id="themeToggle">◐</button><button class="search-btn" id="searchOpen">Search <span>⌘K</span></button></div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="breadcrumb">Home / Temples</div><span class="eyebrow">Visual study</span><h1>Tabernacle & Temples</h1><p>The source contains three Tabernacle schematics plus diagrams of Solomon's Temple and Herod's Temple. This page turns that structure into an interactive visual study area.</p></section>
+<section class="section" style="padding-top:24px">
+<div class="temple-grid">
+<div class="temple-diagram">
+<div class="tabernacle">
+<div class="tab-zone court"><button data-tabernacle="Courtyard" data-text="The source describes a linen-walled courtyard surrounding the Tabernacle, with the bronze altar and laver placed before the tent.">COURTYARD<br>Bronze Altar<br>Laver</button></div>
+<div class="tab-zone holy"><button data-tabernacle="Holy Place" data-text="The source places the menorah, table of showbread and altar of incense in the Holy Place.">HOLY PLACE<br>Menorah<br>Showbread<br>Incense</button></div>
+<div class="tab-zone most"><button data-tabernacle="Most Holy Place" data-text="The source identifies the Most Holy Place, or Holy of Holies, as the room containing the Ark of the Covenant.">MOST HOLY PLACE<br>Ark of the Covenant</button></div>
+</div>
+</div>
+<aside class="inspector" id="templeInfo"><span class="eyebrow">Interactive diagram</span><h2>Select a zone</h2><p>Tap the courtyard, Holy Place or Most Holy Place to study the layout represented in the source atlas.</p></aside>
+</div>
+</section>
+<section class="section">
+<div class="section-head"><div><span class="eyebrow">Compare</span><h2>Three worship structures.</h2></div><p>A simple comparison based only on what the uploaded atlas clearly supports.</p></div>
+<div style="overflow:auto"><table class="compare-table"><thead><tr><th>Structure</th><th>Source emphasis</th><th>Key visual idea</th></tr></thead><tbody>
+<tr><td>Tabernacle</td><td>Portable worship facility during the wilderness period</td><td>Courtyard → Holy Place → Most Holy Place</td></tr>
+<tr><td>Solomon's Temple</td><td>Permanent Temple complex in Jerusalem</td><td>Holy Place, Most Holy Place, bronze altar, sea and storerooms</td></tr>
+<tr><td>Herod's Temple</td><td>Large Temple complex in the New Testament era</td><td>Courts, altar, Holy Place and Most Holy Place</td></tr>
+</tbody></table></div>
+</section>
+</main>
+<footer>
+  <div class="brand footer-brand"><span class="brand-mark">✦</span><span><strong>Scripture Atlas</strong><small>Christian in identity. Open in invitation.</small></span></div>
+  <p>Original educational interface inspired by the supplied Bible Class Atlas structure.</p>
+</footer>
+<div class="search-overlay" id="searchOverlay" aria-hidden="true"><div class="search-panel"><div class="search-input-wrap"><span>⌕</span><input id="searchInput" placeholder="Search places, journeys, empires, churches…"><button id="searchClose">Esc</button></div><div id="searchResults" class="search-results"></div></div></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="assets/app.js"></script>
+</body></html>
